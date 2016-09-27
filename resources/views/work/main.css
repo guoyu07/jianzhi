@@ -1,0 +1,850 @@
+/* -----------recruitment-info---------- */
+@media screen and (max-width: 1025px) and (min-width:765px ){
+    .recruitment-breadcrumb{
+        margin-top:15px;
+    }
+}
+.recruitment-breadcrumb a{
+    color: #e60012 !important;
+}
+.recruitment-breadcrumb li.active{
+    width:75%;
+}
+.recruitment-breadcrumb li{
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}
+.recruitment-panelTop{
+    margin-top: 0 !important;
+    left: 0;
+    padding: 12px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.recruitment-panel{
+    box-shadow: 5px 5px 5px #ddd;
+    margin-top:-20px;
+    padding:0 15px;
+}
+.recruitment-panel .panel-body{
+    max-width:1160px;
+    margin: 0 auto;
+}
+.recruitment-panel h4{
+    font-weight: bold;
+}
+.recruitment-panel h4 span{
+    font-size: 14px;
+    color:#a5a5a5;
+    margin-left: 20px;
+}
+.recruitment-panel p i{
+    font-size: 15px;
+    color:#e60012;
+    font-style: normal;
+    font-weight: bold;
+}
+.recruitment-panel p span{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #7c7c7c;
+}
+.recruitment-panel .btn{
+    width: 150px;
+    background:#e60012;
+    color: #fff;
+    border: 1px solid #e60012;
+    margin-top: 35px;
+}
+.disabledTime_btn{
+	background: #ccc !important;
+    color: #fff;
+    width: 180px;
+    border: 1px solid #ccc !important;
+    cursor:default;
+}
+.disabledTime_btn:hover,.disabledTime_btn:focus{
+    border: 1px solid #ccc !important;
+}
+.recruitment-panel .btn:hover,.recruitment-panel .btn:focus{
+    background:#e60012;
+    color: #fff;
+    border: 1px solid #e60012;
+}
+p.recruitment-detailTitle{
+    border-left: 15px solid #e60012;
+    margin-left: -15px; 
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    clear: both;
+}
+.recruitment-detailTop{
+    margin-top:240px; 
+}
+.recruitment-detail .col-lg-12{
+    margin-bottom: 60px;
+}
+.recruitment-detail hr{
+    border: 1px dashed #ddd;
+}
+.recruitment-detail p i{
+    color: #e60012;
+    font-style: normal;
+    font-weight: bold;
+}
+.recruitment-detail .tips{
+    font-weight: bold;
+    color: #D58423;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.hint_span{
+	color:#1E90FF;
+	margin-left:15px;
+}
+.star_relative{
+	position:relative;
+	top:-3px;
+}
+#mapPlace{
+	width:100%;
+	height:300px;
+}
+.anchorBL{display:none;}
+.BMapLabel{
+	max-width:300px;
+}
+.BMap_noprint>span>span,.BMap_scaleCtrl>div{
+	display:none !important;
+}
+/* ---------recruitment-search------------ */
+.recruitment-jumbotron{
+	padding:0 !important;
+}
+.recruitment-jumbotron img{
+    margin: 0 auto;
+}
+.recruitment-place{
+    background: #f5f5f5;
+    margin-top: -30px;
+    width: 100%;
+}
+.recruitment-place .container{
+    position:relative;
+}
+.recruitment-place p{
+    padding-top: 10px;
+}
+.recruitment-place p .toggle-place{
+    color: #e60012;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    left: 75px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    z-index: 9;
+}
+.toggle-place-click{
+	background: #ffffff none repeat scroll 0 0;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    color: #e60012;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    left: 75px;
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    width: 97px;
+    z-index: 9;
+}
+.toggle-place-panel{
+	background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    left: 80px;
+    margin: 0 auto;
+    position: absolute;
+    top: 39px;
+    width: 230px;
+    z-index: 3;
+    display:none;
+}
+.toggle-place-panel ul{
+	background: #ffffff none repeat scroll 0 0;
+    cursor: pointer;
+    margin: 10px;
+    padding:0 5px 5px;
+}
+.toggle-place-panel ul li{
+	cursor:pointer;
+	margin-bottom:15px;
+	width:45px;
+	text-decoration: none;
+}
+.toggle-place-panel ul li a{
+	color:#333;
+	text-decoration: none;
+}
+.toggle-place-panel ul li a:hover,
+.toggle-place-panel ul li a:active,
+.toggle-place-panel ul li a:focus{
+	text-decoration: none;
+}
+.toggle-place-panel ul li.active a{
+	color:#e60012;
+	font-weight:bold;
+	cursor:default;
+}
+.recruitment-select{
+    margin: 20px 0 10px;
+    line-height: 1;
+}
+.recruitment-selectType p{
+    margin-bottom: 5px !important;
+}
+.recruitment-selectType ul{
+    margin-top: 2px;
+}
+.recruitment-selectArea ul{
+    margin-top: -1px;
+    max-width:90%;
+}
+.recruitment-selectType span{
+    margin-left: 13px;
+    margin-right: 10px; 
+}
+.recruitment-selectArea span{
+    margin-left: 5px;
+    margin-right: 12px; 
+}
+.recruitment-select ul li.active{
+    padding:5px 10px;
+    color:#fff;
+    background: #e60012;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.recruitment-select ul li{
+    padding:5px 10px;
+    border-radius: 3px;
+    cursor:pointer;
+    margin-bottom:3px; 
+}
+.recruitment-select ul li:hover{
+    padding:5px 10px;
+    color:#fff;
+    background: #e60012;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.recruitment-choose{
+    background: #F4F4F4;
+    margin: 30px 0 50px 0; 
+    border:1px solid #F4F4F4;
+}
+.recruitment-choose .navbar-form{
+    position: absolute !important;
+    top: -2px;
+    right: 12px;
+}
+.recruitment-choose .navbar-form input{
+    height: 30px !important;
+    padding-right: 30px;
+}
+.recruitment-choose .glyphicon-search{
+    cursor:pointer;
+    position: absolute;
+    right: 23px;
+    top: 9px;
+}
+.recruitment-choose .nav-tabs{
+    border-bottom: 1px solid #FFE1E5;
+    color: #333;
+    position: relative;
+    height: 45px;
+}
+.recruitment-choose .nav-tabs a{
+    color: #333 !important;
+}
+.recruitment-choose .nav-tabs li.active>a{
+    border-bottom-colors: none;
+    border-left-colors: none;
+    border-right-colors: none;
+    border-top: 3px solid #e60012 !important;
+    background-color: #F4F4F4;
+    border-color: #FFE1E5 #FFE1E5 transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #333;
+    cursor: default;
+    font-weight: bold;
+}
+.recruitment-choose .nav-tabs li a:hover{
+    border-color:#FFE1E5 #FFE1E5 #F4F4F4;
+}
+.recruitment-chooseShowExist{
+    background: #fff;
+    height: 35px;
+}
+.recruitment-chooseShowExist .checkbox{
+    
+}
+.recruitment-choose .media{
+    padding:23px 15px 15px;
+}
+.recruitment-choose .recruitmentIndex{
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.recruitmentIndex:hover{
+	background:#eee;
+}
+.recruitmentIndex a{
+    text-decoration: none !important;
+}
+.recruitment-choose .media .recruitmentTime i{
+    color: #e60012;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+.recruitment-choose .recruitmentName{
+    color:#e60012;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: bold;
+    max-width: 550px;
+}
+.recruitment-choose .recruitmentDetail{
+    margin-right: 15px; 
+}
+.recruitment-choose .recruitmentDetail i{
+	white-space:nowrap;
+}
+.recruitment-choose .recruitmentDetail i.signupNumber{
+    color:#e60012;
+    font-weight:bold;
+}
+.recruitment-choose .recruitmentDetail img{
+    margin: 0 5px;
+}
+.recruitmentApply .btn{
+    background: #e60012;
+    color: #fff;
+    width: 180px;
+    border: 1px solid #e60012;
+}
+.waitEmployed,.cancleEmployed{
+	width:90px !important;
+}
+.recruitmentApply .disabledTime .btn{
+    background: #ccc !important;
+    color: #fff;
+    width: 180px;
+    border: 1px solid #ccc;
+    cursor:default;
+}
+.recruitmentApply .disabledTime .btn:hover,.recruitmentApply .disabledTime .btn:focus{
+    border: 1px solid #ccc;
+}
+.recruitmentApply .disabledTime .recruitmentTime {
+    color: #ccc !important;
+}
+.recruitmentApply .disabledTime .recruitmentTime i{
+    color: #ccc !important;
+}
+.recruitmentApply .btn:hover,.recruitmentApply .btn:focus{
+    background: #e60012;
+    color: #fff;
+    border: 1px solid #e60012;
+}
+.recruitmentApply p.pull-left,.recruitmentApply p.recruitmentApply_left{
+    margin-right: 40px; 
+    width: 180px;
+    text-align: center;
+}
+.recruitmentApply p.pull-left small,.recruitmentApply p.recruitmentApply_left small{
+    border: 1px dotted #777;
+    color: #777;
+    display: block;
+    margin: 5px auto 0;
+    padding: 2px;
+    width: 80%;
+}
+.recruitmentApply p.pull-left small i,.recruitmentApply p.recruitmentApply_left small i{
+    color: #e60012;
+}
+.recruitmentApply p.pull-left span,.recruitmentApply p.recruitmentApply_left span{
+    color: #e60012;
+}
+.recruitmentApply p.pull-left span i,.recruitmentApply p.recruitmentApply_left span i{
+    font-size: 25px !important;
+    font-weight: normal !important;
+}
+.recruitmentApply .pull-right{
+    text-align: center;
+    margin-top:17px;
+}
+.recruitmentApply .pull-right span{
+    display: block;
+    margin: 5px 0 0 0;
+}
+.recruitment-co{
+    background-color: #fff;
+    min-height: 75px;
+    left: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 123px;
+    width: 400px;
+    z-index: 9;
+    box-shadow: 4px 2px 3px #ccc;
+    display: none;
+    border-radius:3px;
+}
+.recruitment-co p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.recruitment-co-name img{
+	position:relative;
+	left: 15px;
+    top: -3px;
+}
+.recruitment-co p small{
+    font-weight: normal !important;
+    margin-left: 20px; 
+}
+.recruitment-co .recruitment-co-level img{
+    position: relative;
+    top: -2px;
+}
+.recruitmentApply .alreadyOver{
+    display: block;
+    width: 180px;
+    font-size: 18px;
+    color: #7f7f7f;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px){
+    .recruitmentApply{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 750px){
+    .recruitment-choose .media{
+        padding:10px 0 ;
+    }
+    .recruitment-choose .navbar-form{
+        position: absolute !important;
+        top: -12px;
+        right: 5px;
+    }
+    .recruitment-choose .glyphicon-search{
+        cursor:pointer;
+        position: absolute;
+        right: 23px;
+        top: 19px;
+    }
+    .recruitmentApply{
+        width: 180px;
+        margin: 0 auto;
+    }
+    .recruitment-choose .nav-tabs li{
+        width: 90px;
+    }
+    #myJob-tabpanel .myJobTab li{
+        width:75px !important;
+    }
+    #myJob-tabpanel .myJobTab li a{
+        font-size:15px;
+        padding:10 !impotant;
+    }
+	.inWork-info span{
+	    display:block;
+	}
+	.hasFinished-info tr td{
+	    border:1px solid #ddd !important;
+	}
+	.recruitment-choose #pagination{
+	    margin:45px 15px !important;
+	}
+	.inWork-info .btn{
+		margin:10px 20px !important;
+		float:inherit !important
+	}
+	.detail_left-media,.detail_right-media{
+		width:100% !important;
+		float:left;
+	}
+	.detail_right-media{
+	    margin-top:50px;
+	}
+	.allMoney{
+	    border-left:medium none !important;
+	    border-right:medium none !important;
+	}
+}
+@media screen and (max-width: 400px){
+    .recruitment-choose .navbar-form{
+        position: absolute !important;
+	    right: 5px;
+	    top: 28px;
+	    z-index: 2;
+    }
+    #hasSignedUp .recruitmentName{
+	   padding-top:20px;
+	}
+	.recruitment-detail>div div,.recruitment-detail .tips{
+	    padding-left:0 !important;
+	    padding-right:0 !important;
+	    margin-left:0 !important;
+	}
+}
+.recruitment-coPhoto{
+	width:100px;
+	height:100px;
+	border:1px solid #ddd;
+}
+/* ѡ��ʱ�䵯�� */
+#selectTime .modal-dialog{
+	margin:10% auto !important;
+}
+#selectTime .modal-header,#selectTime .modal-footer{
+	border: 0;
+	clear:both;
+}
+.selectTimePanel{
+	text-align:center;
+}
+.selectTimePanel span{
+	border: 1px solid #e60012;
+    border-radius: 5px;
+    color: #e60012;
+    cursor: pointer;
+    margin: 2%;
+    padding: 5px 15px;
+    width: 20%;
+    float:left;
+    list-style:none;
+}
+.selectTimePanel span.overNum{
+	border:1px solid #989898;
+	color:#989898;
+	cursor:default;
+}
+.selectTimePanel span.selected{
+	border: 1px solid #e60012;
+	background: #e60012;
+	color:#fff;
+}
+#selectTime .modal-footer .btn{
+	width:100px;
+}
+#selectTime .modal-footer .btn-primary{
+	background: #e60012;
+	color:#fff;
+	border: 1px solid #e60012;
+}
+.recruitment-choose #pagination{
+	margin-top:45px;
+	margin-right:20px;
+}
+#selectTime .modal-header span{
+	color:#777;
+	margin-left: 25px;
+}
+/* --------myjob------------- */
+.part-time-panel{
+    background: #f7f7f7;
+    border:1px solid #d2d2d2;
+    padding:15px;
+}
+.part-time-detail{
+    margin-right: 30px;
+}
+.part-time-detail p i{
+    color:#e60012;
+    font-style: normal;
+}
+.part-time-detail .btn{
+    margin: -2px 10px;
+}
+.part-time-panel .co-name{
+    line-height: 2.5 !important;
+}
+.part-time-evaluate{
+    margin-top: 35px;
+}
+.part-time-evaluate span{
+    position: relative;
+    top: 2px;
+}
+.out-of-time i{
+    color: #333 !important;
+}
+
+/* ----我的兼职------*/
+#myJob-tabpanel .myJobTab li{
+	width:90px;
+	text-align:center;
+	display:inline-block;
+}
+#myJob-tabpanel .myJobTab{
+	border-bottom:1px solid #ddd;
+	margin-top:5px;
+}
+#myJob-tabpanel ul li a{
+	color:#333;
+	margin-right:0 !important;
+	font-size:16px;
+}
+#myJob-tabpanel .myJobTab li a:hover{
+       background:#fff;
+}
+#myJob-tabpanel ul li.active a{
+	border-bottom:2px solid #e60012;
+	color:#e60012;
+}
+#hasSignedUp,#inWork,#hasFinished{
+	margin-top:15px;
+}
+#hasSignedUp .recruitmentIndex{
+    position: relative;
+    border-bottom: 1px solid #fff;
+    padding: 23px 15px;
+    background:#f4f4f4;
+}
+#hasSignedUp .recruitmentDetail{
+    margin-right: 15px; 
+}
+#hasSignedUp .recruitmentDetail i.signupNumber{
+    color:#e60012;
+    font-weight:bold;
+}
+#hasSignedUp .recruitmentDetail img{
+    margin: 0 5px;
+}
+#hasSignedUp .recruitmentName{
+    color:#e60012;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: bold;
+    padding-left: 8px;
+}
+.inWork-info{
+	padding:10px 0 15px;
+}
+.inWork-info .btn{
+	display:block;
+	margin:-30px 30px 0 20px;
+	float:right;
+	background: #e60012;
+	color: #fff;
+	width: 100px;
+	border: 1px solid #e60012;
+}
+.inWork-info .btn:hover,
+.inWork-info .btn:active,
+.inWork-info .btn:focus{
+	background: #e60012;
+	color: #fff;
+	width: 100px;
+	border: 1px solid #e60012;
+}
+.inWork-info-title{
+	font-size: 16px;
+    line-height: 42px;
+    margin: 0 12px;
+    font-weight: bold;
+}
+.inWork-info span{
+	margin:0 20px;
+	color:#777;
+}
+.inWork-info i{
+	color:#e60012;
+	font-weight:bold;
+	font-size:16px;
+}
+.inWork-info td{
+	padding:20px 8px !important;
+}
+.inWork-state{
+	padding:10px 0 0 20px;
+}
+.inWork-state li{
+	border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+}
+.table-responsive{
+	border-bottom:1px solid #ddd;
+	margin-bottom:20px;
+}
+#hasFinished .appeal{
+	margin-left: 10px;
+    padding: 0 5px !important;
+	background:#eee;
+}
+#hasFinished .star ul{
+	margin:2px 0 !important;
+}
+.hasFinished-submit{
+	background: #ff5562;
+    border: 1px solid #ff5562;
+    color: #ffffff;
+    display: block;
+    margin: 14px;
+    width: 180px;
+}
+.hasFinished-submit:hover,
+.hasFinished-submit:active,
+.hasFinished-submit:focus{
+	background: #ff5562;
+    border: 1px solid #ff5562;
+    color: #ffffff;
+}
+.myJob-hasFinished-logo{
+	width:90px;
+	height:90px;
+	border-radius:5px;
+	margin:5px 15px;
+}
+.hasFinished-info{
+    margin-bottom:0 !important;
+}
+.hasFinished-info td{
+    vertical-align:middle !important;
+}
+.hasFinished-info .media-body{
+	font-weight: bold;
+    padding-top: 20px;
+}
+.hasFinished-info .media-body .star span{
+	color: #777777;
+    font-weight: 500;
+    left: 142px;
+    position: relative;
+    top: -23px;
+} 
+.disabledButton{
+	background: #ccc none repeat scroll 0 0 !important;
+    border: 1px solid #ccc !important;
+    color: #fff;
+    cursor: default;
+}
+.markBlock-unhandle{
+	background:#4f4f4f;
+}
+.map-tip{
+	margin-top:10px;
+	color:#777;
+}
+
+/* company-detail-modal*/
+.detail_left-media{
+	position: relative;
+    top: 30px;
+}
+.detail_right-media{
+	padding-left:13px;
+}
+.detail_left-media,.detail_right-media{
+	width:47%;
+	float:left;
+}
+.detail_left-media .media-left img{
+    width:90px;	
+    height:90px;
+    border:1px solid #ddd;
+    border-radius:5px;
+}
+p.star_relative span{
+	font-size:13px;
+	margin-left:5px;
+}
+.detail_left-media .co_name{
+	font-size:15px;
+	font-weight:bold;
+}
+.detail_right_p span{
+	color:#e60012;
+}
+.detail_right-media .media-body{
+	padding-top:30px;
+}
+.job_detail_container{
+	margin:40px 0;
+	border-bottom:1px solid #ddd;
+}
+.job_detail_container li{
+	padding:0 34px;
+	height:64px;
+}
+.allMoney{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.job_detail_container li p{
+	font-size:15px;
+}
+.job_detail_container li p span{
+	font-size:24px;
+	font-weight:bold;
+	color:#e60012;
+	margin-right:5px;
+}
+.job_detail_evaluate{
+	padding:0 15px;
+}
+.evaluateDiv{
+	border-bottom: 1px solid #ddd;
+    padding: 13px 0;
+    width: 100%;
+}
+.job_detail_evaluate h4{
+	font-size:15px;
+	font-weight:bold;
+}
+.evaluateDiv .photo{
+	width:45px;
+	height:45px;
+	border-radius:50%;
+	border:1px solid #eee;
+}
+.evaluateDiv .name{
+	font-size:15px;
+	display: inline-block;
+	width:90px;
+}
+.evaluateDiv .time{
+	color:#7d7d7d;
+}
+.evaluateDiv .star_relative{
+	margin:10px 0 5px;
+}
+.CoName_I{
+	cursor:pointer;
+}
